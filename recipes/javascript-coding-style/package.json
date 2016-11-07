@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "valid": "standard valid.js",
+    "invalid": "standard invalid.js",
+    "start": "standard"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0"
+  }
+}
