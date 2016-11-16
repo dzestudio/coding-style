@@ -9,4 +9,5 @@ Pequenos trechos de código reusáveis para compor projetos maiores da DZ.
 * [Validador de coding style javascript](javascript-coding-style)
 * [Roteador para organização de javascript](javascript-routing)
 * [Pacotes recomendados para editores de texto](recommended-editor-settings)
+* [Organização de JavaScript com Webpack](webpack)
 * [Google Analytics](analytics)
