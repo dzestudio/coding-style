@@ -1,0 +1,30 @@
+@import url(x.css);
+@import url(y.css);
+
+
+.selector-1,
+.selector-2,
+.selector-3[type="text"] {
+  background: linear-gradient(#fff, rgba(0, 0, 0, .8));
+  box-sizing: border-box;
+  display: block;
+  color: #aeaeae;
+}
+
+.selector-a {
+  top: calc(calc(1em * 2) / 3);
+
+  @media (min-width: 60em) {
+    transform: translate(1, 1) scale(3);
+  }
+}
+
+.selector::after {
+  content: '→';
+  background-image: url(x.svg);
+
+  &:hover,
+  &:focus {
+    opacity: 0;
+  }
+}

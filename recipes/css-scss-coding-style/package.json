@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "valid": "stylelint valid.scss",
+    "invalid": "stylelint invalid.scss",
+    "start": "stylelint **/*.scss"
+  },
+  "devDependencies": {
+    "stylelint": "^7.5.0",
+    "stylelint-config-standard": "^14.0.0"
+  }
+}
